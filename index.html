@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TravelLife — учебный туристический блог с историями, направлениями и советами для путешествий.">
+  <title>TravelLife — истории о путешествиях</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="TravelLife — на главную">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span class="brand-copy"><strong>TravelLife</strong><small>Больше, чем путешествия</small></span>
+      </a>
+
+      <nav class="main-nav" aria-label="Основная навигация">
+        <a class="active" href="#home">Главная</a>
+        <a href="#stories">Истории</a>
+        <a href="#destinations">Направления</a>
+        <a href="#tips">Советы</a>
+        <a href="#about">О проекте</a>
+      </nav>
+
+      <a class="header-link" href="#newsletter">Получать письма <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <p class="eyebrow">Журнал о путешествиях</p>
+        <h1 id="hero-title">Мир начинается<br>за пределами привычного</h1>
+        <p class="hero-description">Истории о местах, в которые хочется вернуться, маршруты и простые советы для самостоятельных путешествий.</p>
+        <a class="button button-light" href="#stories">Вдохновиться историями <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="hero-note">
+        <span class="note-line"></span>
+        <p>«Лучший маршрут — тот, после которого остаётся желание увидеть больше»</p>
+      </div>
+    </section>
+
+    <section class="intro container" aria-label="О журнале">
+      <p>Каждое путешествие меняет что-то в маршруте, но больше — в нас самих.</p>
+      <span>Собрали идеи для следующего путешествия.</span>
+    </section>
+
+    <section class="stories-section container" id="stories" aria-labelledby="stories-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Читать и мечтать</p>
+          <h2 id="stories-title">Истории, которые вдохновляют</h2>
+        </div>
+        <a class="text-link" href="#destinations">Смотреть направления <span aria-hidden="true">→</span></a>
+      </div>
+
+      <div class="story-grid">
+        <article class="story-card story-card-large" id="italy-story">
+          <a class="story-image" href="#italy-story" aria-label="Читать историю о побережье Италии">
+            <figure>
+              <img src="images/italy.jpg" alt="Цветные дома на скалистом побережье Италии">
+              <figcaption>Побережье Италии</figcaption>
+            </figure>
+          </a>
+          <div class="story-body">
+            <span class="tag">Европа</span>
+            <h3>Медленные дни на побережье Италии</h3>
+            <p>Небольшие города, морской воздух и длинные прогулки у воды. Маршрут для тех, кто любит путешествовать без спешки.</p>
+            <div class="story-meta"><time datetime="2025-05-12">12 мая 2025</time><span>6 минут чтения</span></div>
+          </div>
+        </article>
+
+        <article class="story-card" id="iceland-story">
+          <a class="story-image" href="#iceland-story" aria-label="Читать историю об Исландии">
+            <figure>
+              <img src="images/iceland.jpg" alt="Горное озеро на фоне северного сияния">
+              <figcaption>Природа Исландии</figcaption>
+            </figure>
+          </a>
+          <div class="story-body">
+            <span class="tag">Север</span>
+            <h3>Исландия: ближе к природе</h3>
+            <p>Горы, озёра и дороги, на которых хочется останавливаться снова и снова. Идея для путешествия на машине.</p>
+            <div class="story-meta"><time datetime="2025-04-03">3 апреля 2025</time><span>8 минут чтения</span></div>
+          </div>
+        </article>
+
+        <article class="story-card" id="bali-story">
+          <a class="story-image" href="#bali-story" aria-label="Читать историю о Бали">
+            <figure>
+              <img src="images/bali.jpg" alt="Пляж Келингкинг на острове Нуса-Пенида">
+              <figcaption>Тихий Бали</figcaption>
+            </figure>
+          </a>
+          <div class="story-body">
+            <span class="tag">Азия</span>
+            <h3>Первое знакомство с Бали</h3>
+            <p>Как почувствовать ритм острова, найти спокойные места и подготовиться к поездке без лишней суеты.</p>
+            <div class="story-meta"><time datetime="2025-03-18">18 марта 2025</time><span>5 минут чтения</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="guide-section" id="destinations" aria-labelledby="destinations-title">
+      <div class="container guide-layout">
+        <div class="tips-copy">
+          <p class="eyebrow">Куда отправимся?</p>
+          <h2 id="destinations-title">Направления для новых открытий</h2>
+          <p>Короткий ориентир по направлениям, который помогает выбрать настроение поездки.</p>
+          <a class="text-link" href="#tips">Перейти к советам <span aria-hidden="true">→</span></a>
+        </div>
+
+        <aside class="destination-aside" aria-labelledby="aside-title">
+          <p class="aside-label">Популярные направления</p>
+          <h3 id="aside-title">Куда поехать дальше?</h3>
+          <ul class="destination-list">
+            <li><a href="#italy-story"><span>01</span><strong>Италия</strong><small>море и маленькие города</small></a></li>
+            <li><a href="#iceland-story"><span>02</span><strong>Исландия</strong><small>горы, озёра и простор</small></a></li>
+            <li><a href="#bali-story"><span>03</span><strong>Бали</strong><small>природа и местные традиции</small></a></li>
+            <li><a href="#tips"><span>04</span><strong>Другие направления</strong><small>города, культура и маршруты</small></a></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="tips-section container" id="tips" aria-labelledby="tips-title">
+      <div class="tips-copy">
+        <p class="eyebrow">Небольшая подготовка</p>
+        <h2 id="tips-title">Путешествовать<br>легче, чем кажется</h2>
+        <p>Хорошая поездка начинается не с идеального плана, а с нескольких продуманных мелочей.</p>
+        <a class="text-link" href="#newsletter">Получить больше советов <span aria-hidden="true">→</span></a>
+      </div>
+
+      <div class="tip-list">
+        <article class="tip-item">
+          <span class="tip-number">01</span>
+          <div><h3>Оставьте место спонтанности</h3><p>Планируйте главное, но не заполняйте расписание до последней минуты.</p></div>
+        </article>
+        <article class="tip-item">
+          <span class="tip-number">02</span>
+          <div><h3>Собирайте вещи по списку</h3><p>Универсальная одежда и необходимые документы сэкономят время перед выездом.</p></div>
+        </article>
+        <article class="tip-item">
+          <span class="tip-number">03</span>
+          <div><h3>Изучите местные привычки</h3><p>Несколько слов на местном языке и уважение к обычаям делают поездку приятнее.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="newsletter-section" id="newsletter" aria-labelledby="newsletter-title">
+      <div class="container newsletter-inner">
+        <div>
+          <p class="eyebrow">Письма из путешествий</p>
+          <h2 id="newsletter-title">Пусть вдохновение<br>приходит к вам</h2>
+          <p>Новые истории, маршруты и идеи для поездок — иногда, без лишнего шума.</p>
+        </div>
+        <form class="newsletter-form" action="#" method="get">
+          <label for="email">Ваш электронный адрес</label>
+          <div class="form-row">
+            <input id="email" name="email" type="email" placeholder="имя@почта.com" required>
+            <button class="button button-dark" type="submit">Подписаться <span aria-hidden="true">→</span></button>
+          </div>
+          <small>Нажимая на кнопку, вы соглашаетесь получать письма от TravelLife.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="about">
+    <div class="container footer-main">
+      <a class="brand footer-brand" href="#home">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span class="brand-copy"><strong>TravelLife</strong><small>Больше, чем путешествия</small></span>
+      </a>
+      <p class="footer-about">Туристический блог для любознательных путешественников. Истории, направления и идеи для новых поездок.</p>
+      <div class="footer-links">
+        <h2>Разделы</h2>
+        <a href="#stories">Истории</a><a href="#destinations">Направления</a><a href="#tips">Советы</a>
+      </div>
+      <div class="footer-contact">
+        <h2>Связаться</h2>
+        <address><a href="mailto:travellife@gmail.com">travellife@gmail.com</a><br>Йошкар-Ола, Россия</address>
+      </div>
+    </div>
+    <div class="container footer-bottom"><span>2026 TravelLife. Учебный проект.</span><a href="#home">Наверх ↑</a></div>
+  </footer>
+</body>
+</html>
